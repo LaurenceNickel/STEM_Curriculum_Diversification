@@ -1,0 +1,14 @@
+[
+    {
+        "study_programme_name": "creative media and game technologies",
+        "hogeschool": "Hogeschool voor de Kunsten Utrecht",
+        "content_link": "https://www.tkmst.nl/hbo-wo-opleidingen/creative-media-and-game-technologies/6/57/",
+	"study_programme_type": "B",
+        "study_programme_location": "Utrecht",
+        "study_programme_language": "Nederlands",
+        "study_programme_length": "4 jaar",
+	"study_programme_length_type": "voltijd",
+        "study_programme_description": "Onder Creative Media and Game Technologies (CMGT) aan de Hogeschool voor de Kunsten Utrecht, kun je kiezen uit een van de vijf afstudeerrichtingen: Game Art, Game Design, Game Development, Audio Design, en Sound Design.",
+        "study_programme_hard_requirements": "Havo: C&M met Wiskunde A of Wiskunde B; E&M volledig toelaatbaar; N&G volledig toelaatbaar; N&T volledig toelaatbaar. Vwo: volledig toelaatbaar. Mbo-niveau 4: volledig toelaatbaar."
+    }
+]

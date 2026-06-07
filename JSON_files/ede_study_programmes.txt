@@ -1,0 +1,16 @@
+[
+    {
+        "study_programme_name": "hbo-ict",
+        "hogeschool": "Christelijke Hogeschool Ede",
+        "content_link": "https://www.che.nl/opleidingen/voltijd/bachelor/hbo-ict",
+	"study_programme_type": "B",
+        "study_programme_location": "Ede",
+        "study_programme_language": "Nederlands",
+        "study_programme_length": "4 jaar",
+	"study_programme_length_type": "voltijd",
+        "study_programme_description": "Een slimme app designen om voorraden bij te houden? De digitale beveiliging van een ziekenhuis verbeteren? Zorgen dat je medewerkers en klanten overal ter wereld veilig en snel bij jouw data kunnen komen? Ontdek de beste HBO ICT-opleiding van Nederland! Hier heeft je studie impact op jou én de ander. ICT heeft een groeiende impact op ons dagelijks leven. Marketing, logistiek of klantcontact; bedrijven, organisaties en overheden gebruiken ICT voor een steeds groter deel van hun processen. Zelf weet je waarschijnlijk niet beter dan dat je je muziek streamt, je vakantie online boekt en je bankzaken op je smartphone regelt. Logisch dat de vraag naar ICT-professionals nog altijd groeit. En als je straks van de CHE komt heb je helemaal een streepje voor. Bij ons groei je namelijk uit tot een verbinder tussen de bedrijfsprocessen, de techniek en de mensen. Je hebt niet alleen aandacht voor het doel en de technische mogelijkheden, maar ook voor de gebruiksvriendelijkheid, het ontwerp en waar de grenzen van privacy en veiligheid liggen. Je leert hoe je effectief en daadkrachtig samenwerkt aan de IT-oplossingen van morgen.  Dus zoek jij een opleiding op het snijvlak van mens, ICT en bedrijfskunde? Dan is HBO-ICT iets voor jou.",
+	"study_programme_soft_requirements": "Havo, vwo, mbo (niveau 4) of een vergelijkbaar diploma. Beschik je niet over de vereiste vooropleiding, maar ben je 21 jaar of ouder? Dan kan je deelnemen aan het toelatingsonderzoek. Beschik je niet over een diploma van een Nederlandstalige opleiding (havo, vwo, mbo4, hbo of universiteit)? Dan ben je alleen toelaatbaar met een diploma Nt2 (programma B2) of CNaVT (programma B2 of C1). Deze taaleis geldt ook als je wel de Nederlandse nationaliteit hebt, maar niet in het bezit bent van een diploma van een Nederlandstalige opleiding.",
+	"study_programme_content_general": "In de laatste anderhalf jaar van je studie kies je voor een uitstroomprofiel dat het best past bij wat jij leuk vindt en waarin jij later aan het werk wilt. Zo specialiseer jij je verder in een vakgebied binnen ICT, zoals applicatieontwikkelaar, functioneel ontwerper, software developer, UX-designer en ICT-consultant.",
+	"study_programme_future_jobs": "ICT is een veelzijdig vakgebied. Je kunt er onder andere IT-consultant, Front End Developer, IT Security Consultant, Informatiemanager of UX-designer mee worden."
+    } 
+]
