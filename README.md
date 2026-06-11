@@ -52,7 +52,7 @@ If the CSV is missing but the `.sav` file is available locally, the notebook att
 
 ## Dependencies
 
-The notebook was written for Python 3.12 and uses the following main packages:
+Use Python 3.12 for this project. The pinned package versions are listed in `requirements.txt`. The notebook was written and tested with Python 3.12.5 and uses the following main packages:
 
 - `argostranslate`
 - `gensim`
@@ -61,7 +61,7 @@ The notebook was written for Python 3.12 and uses the following main packages:
 - `networkx`
 - `nltk`
 - `numpy`
-- `openpyxl`
+- `openpyxl` for reading Excel files through pandas (not pinned in `requirements.txt` because no version was provided in the recorded package list)
 - `pandas`
 - `plotly`
 - `pyreadstat`
@@ -75,19 +75,24 @@ The notebook was written for Python 3.12 and uses the following main packages:
 - `torch`
 - `pyspellchecker`
 
-Example setup:
+Example setup in PowerShell:
 
-```bash
-python -m venv .venv
-.venv\Scripts\activate
-pip install argostranslate gensim joblib matplotlib networkx nltk numpy openpyxl pandas plotly pyreadstat scipy seaborn sentence-transformers scikit-learn spacy statsmodels statannotations torch pyspellchecker
+```powershell
+py -3.12 -m venv .venv
+.\.venv\Scripts\Activate.ps1
+.\.venv\Scripts\python.exe -m pip install --upgrade pip
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
+
+If PowerShell blocks activation scripts, either run `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned` once or skip activation and keep using `.\.venv\Scripts\python.exe -m pip ...` explicitly.
+
+The notebook also uses Python standard-library modules such as `collections.Counter`, `importlib`, `itertools`, `json`, `math`, `os`, `random`, `re`, `sys`, and `warnings`; these are provided by Python itself and are not pip-installable dependencies.
 
 The notebook can download required spaCy models when missing:
 
-```bash
-python -m spacy download nl_core_news_sm
-python -m spacy download en_core_web_sm
+```powershell
+.\.venv\Scripts\python.exe -m spacy download nl_core_news_sm
+.\.venv\Scripts\python.exe -m spacy download en_core_web_sm
 ```
 
 Some sections also rely on external model resources, including Argos Translate models and fastText/Gensim word vectors. A first full run may therefore require an internet connection and substantial local storage.

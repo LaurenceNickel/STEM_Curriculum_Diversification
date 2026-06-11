@@ -1,0 +1,33 @@
+# Python runtime used when these versions were recorded:
+# Python 3.12.5, conda-forge build, MSC v.1940 64 bit (AMD64)
+#
+# Standard-library modules used by the notebook are not listed here:
+# collections.Counter, importlib, itertools, json, math, os, random, re, sys,
+# and warnings.
+#
+# openpyxl may be needed for reading .xlsx files through pandas, but no
+# openpyxl version was included in the recorded notebook package list.
+
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+numpy==1.26.4
+scipy==1.13.1
+gensim==4.3.3
+torch==2.11.0+cpu
+argostranslate==1.11.0
+joblib==1.5.3
+matplotlib==3.9.2
+networkx==3.6.1
+nltk==3.9.4
+openpyxl
+pandas==3.0.2
+plotly==6.7.0
+pyreadstat==1.3.3
+scikit-learn==1.8.0
+seaborn==0.13.2
+sentence-transformers==5.4.0
+spacy==3.8.14
+statannotations==0.7.2
+statsmodels==0.14.6
+pyspellchecker==0.9.0
+patsy==1.0.2
